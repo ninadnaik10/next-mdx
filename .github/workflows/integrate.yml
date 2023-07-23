@@ -13,5 +13,4 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: next dev
-      - run: next build
+      - run: npm run dev
